@@ -8,6 +8,12 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Katarzyna Kmiotek`,
     siteTitleAlt: `Kat Kmiotek`,
+    siteHeadline: `Personal Website`,
+    siteUrl: `https://katk.dev`,
+    siteDescription: `Personal website with my aricles and projects`,
+    siteLanguage: `en`,
+    siteImage: `/home_office.jpg`,
+    author: `Kat Kmiotek`,
     
   },
   plugins: [
