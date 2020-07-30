@@ -12,7 +12,7 @@ module.exports = {
     siteUrl: `https://katk.dev`,
     siteDescription: `Personal website with my aricles and projects`,
     siteLanguage: `en`,
-    siteImage: `/home_office.jpg`,
+    siteImage: `/vintage.jpg`,
     author: `Kat Kmiotek`,
     
   },
