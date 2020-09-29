@@ -14,7 +14,7 @@ module.exports = {
     siteLanguage: `en`,
     siteImage: `/vintage.jpg`,
     author: `Kat Kmiotek`,
-    
+
   },
   plugins: [
     {
@@ -80,6 +80,7 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-preact`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
