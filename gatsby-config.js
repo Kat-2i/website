@@ -55,6 +55,11 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
+      resolve: 'gatsby-plugin-preconnect',
+      options: {
+        domains: ['https://katk.dev'],
+      },
+
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Katarzyna Kmiotek personal website`,
